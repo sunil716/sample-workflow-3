@@ -6,9 +6,8 @@ on :
       - main
 
 jobs :
-  run-shell-commands : 
+  sample-job : 
     runs-on : ubuntu-latest
-    
     steps : 
       - name : first-command
         run : echo "First command"
